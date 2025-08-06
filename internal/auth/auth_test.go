@@ -62,3 +62,7 @@ func TestGetAPIKey(t *testing.T) {
 		})
 	}
 }
+
+func TestFailing(t *testing.T) {
+	t.Fatal("go test")
+}
