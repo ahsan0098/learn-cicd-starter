@@ -13,8 +13,5 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - name: Test
+      - name: Run Go Tests
         run: go test ./...
-
-      - name: Force Failure
-        run: (exit 0)
