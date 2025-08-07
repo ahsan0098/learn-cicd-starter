@@ -40,5 +40,5 @@ jobs:
       - name: Install staticcheck
         run: go install honnef.co/go/tools/cmd/staticcheck@latest
 
-      - name: linting tests
+      - name: Run staticcheck linter
         run: staticcheck ./...
