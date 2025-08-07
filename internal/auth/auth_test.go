@@ -60,3 +60,7 @@ func TestGetAPIKey(t *testing.T) {
 		})
 	}
 }
+
+func TestSomething(t *testing.T) {
+	t.Log("go test")
+}
